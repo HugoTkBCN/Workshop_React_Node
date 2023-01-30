@@ -1,0 +1,20 @@
+.todoList_container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin: 10px 0px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5%;
+}
