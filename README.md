@@ -1,4 +1,4 @@
-# Docker_NodeJs_React_MongoDB
+#
 
 up:
 	sudo docker-compose up -d
