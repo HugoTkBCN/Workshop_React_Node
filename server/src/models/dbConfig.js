@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  'mongodb://' + process.env.MONGODB_IP + ':'+process.env.MONGODB_PORT+'/area',
+  'mongodb://' + process.env.MONGODB_IP + ':'+process.env.MONGODB_PORT+'/hub',
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err) => {
     if (err)

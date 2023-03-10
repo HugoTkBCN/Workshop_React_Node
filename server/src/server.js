@@ -38,13 +38,13 @@ app.use(cors({ credentials: true }));
 */
 
 const routeIndex = require('./routes/routeIndex');
-const routeTask = require('./routes/routeTask');
+const routeTeams = require('./routes/routeTeams');
 
 // Index
 app.use('/', routeIndex);
 
 // Task
-app.use('/api/task', routeTask);
+app.use('/api/teams', routeTeams);
 
 //Error 404
 app.get('*', function (req, res) {
